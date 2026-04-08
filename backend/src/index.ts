@@ -25,10 +25,8 @@ app.use(notFoundHandler);
 app.use(errorHandler);
 
 // Start
-/*app.listen(PORT, () => {
+app.listen(PORT, () => {
   console.log(`\n Sales Dashboard API → http://localhost:${PORT}`);
-  
- 
-});*/
+});
 
 export default app;
